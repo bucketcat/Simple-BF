@@ -4,5 +4,7 @@ All fields that you need to adjust should have a corresponding comment. Don't fo
 
 While we do reduce the total amount of requests by specifying a minimum password length, this script still has a large footprint and is probably not something you'd ideally use in a real penetration test due to potential DoS problems. For CTF/Labs it's fine.
 
+The lin ending rules are LF. For Windows, you probably want to change to CRLF. This can easily be done by opening it in notepad++ and changing the LF > CRLF. Same goes for OSX and CR.
+
 Use reponsibly.
 
